@@ -1,0 +1,52 @@
+﻿Build started 6/10/2013 1:02:17 PM.
+     1>Project "D:\PlaygroundProjects\Evo\Evo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Evo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D EVO_RENDERER_DX9 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Src\EvoFont.cpp
+         EvoFont.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\PlaygroundProjects\Evo\Debug\Evo.lib) does not match the Library's OutputFile property value (D:\PlaygroundProjects\Evo\Lib\Evo.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Lib\Evo.lib" /NOLOGO Debug\EvoBlendState.obj
+         Debug\EvoBuffer.obj
+         Debug\EvoCamera.obj
+         Debug\EvoColor.obj
+         Debug\EvoDepthStencilState.obj
+         Debug\EvoDX9BufferManager.obj
+         Debug\EvoDX9Renderer.obj
+         Debug\EvoEngine.obj
+         Debug\EvoFile.obj
+         Debug\EvoFont.obj
+         Debug\EvoGUI.obj
+         Debug\EvoGUIRectWidget.obj
+         Debug\EvoGUITextWidget.obj
+         Debug\EvoInput.obj
+         Debug\EvoInputElements.obj
+         Debug\EvoInputLayout.obj
+         Debug\EvoInputLayoutManager.obj
+         Debug\EvoLine.obj
+         Debug\EvoMaterial.obj
+         Debug\EvoNode.obj
+         Debug\EvoParser.obj
+         Debug\EvoPoint3.obj
+         Debug\EvoPoint4.obj
+         Debug\EvoRenderable.obj
+         Debug\EvoRenderTarget.obj
+         Debug\EvoResourceManager.obj
+         Debug\EvoShader_DX9.obj
+         Debug\EvoStdAfx.obj
+         Debug\EvoString.obj
+         Debug\EvoTask.obj
+         Debug\EvoTaskManager.obj
+         Debug\EvoTexture.obj
+         Debug\EvoTimer.obj
+     1>EvoStdAfx.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Evo.vcxproj -> D:\PlaygroundProjects\Evo\Debug\Evo.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Evo.unsuccessfulbuild".
+         Touching "Debug\Evo.lastbuildstate".
+     1>Done Building Project "D:\PlaygroundProjects\Evo\Evo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.23

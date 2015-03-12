@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{0ad5023d-f441-4723-9fff-64b354237e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{3b90a481-41bd-4544-871a-2c7aba27b068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inline">
+      <UniqueIdentifier>{c2dd9eac-6ffc-48d7-b62f-5657ed967d9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\EvoAgent.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoAudio.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoBlendState.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoBoneModifier.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoBoneQuery.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoBoundingBox.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoBuffer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoCamera.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoColor.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoDefines.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoDepthStencilState.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoDX9BufferManager.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoDX9Renderer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoDX10BufferManager.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoDX10Renderer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoEngine.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoEntity.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoFile.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoFont.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoFrustum.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoGranny.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoGUI.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoGUIRectWidget.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoGUITextWidget.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoGUIWidget.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoInitData.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoInput.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoInputElements.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoInputLayout.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoInputLayoutManager.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoLine.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoMaterial.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoMatrix.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoNet.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoNode.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoNodeOps.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoParser.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoParticles.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoPath.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoPathEngine.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoPhysics.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoPoint3.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoPoint4.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoPSSM.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoQuat.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoRenderable.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoRenderTarget.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoResourceManager.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoShader.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoShadowMap.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoSkybox.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoStdAfx.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoString.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoSWF.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoTask.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoTaskManager.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoTexture.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoTimer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EvoWorld.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Src\EvoShader_DX9.inl">
+      <Filter>Inline</Filter>
+    </None>
+    <None Include="Src\EvoShader_DX10.inl">
+      <Filter>Inline</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\EvoBlendState.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoBuffer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoCamera.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoColor.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoDepthStencilState.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoDX9BufferManager.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoDX9Renderer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoEngine.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoFile.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoFont.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoGUI.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoGUIRectWidget.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoGUITextWidget.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoInput.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoInputElements.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoInputLayout.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoInputLayoutManager.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoLine.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoMaterial.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoNode.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoParser.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoPoint3.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoPoint4.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoRenderable.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoRenderTarget.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoResourceManager.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoShader_DX9.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoStdAfx.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoString.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoTask.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoTaskManager.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoTexture.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EvoTimer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

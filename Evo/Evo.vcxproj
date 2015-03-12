@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions);EVO_RENDERER_DX9</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(DXSDK_DIR)include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Lib>
+      <OutputFile>Lib\$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\EvoAgent.h" />
+    <ClInclude Include="Src\EvoAudio.h" />
+    <ClInclude Include="Src\EvoBlendState.h" />
+    <ClInclude Include="Src\EvoBoneModifier.h" />
+    <ClInclude Include="Src\EvoBoneQuery.h" />
+    <ClInclude Include="Src\EvoBoundingBox.h" />
+    <ClInclude Include="Src\EvoBuffer.h" />
+    <ClInclude Include="Src\EvoCamera.h" />
+    <ClInclude Include="Src\EvoColor.h" />
+    <ClInclude Include="Src\EvoDefines.h" />
+    <ClInclude Include="Src\EvoDepthStencilState.h" />
+    <ClInclude Include="Src\EvoDX10BufferManager.h" />
+    <ClInclude Include="Src\EvoDX10Renderer.h" />
+    <ClInclude Include="Src\EvoDX9BufferManager.h" />
+    <ClInclude Include="Src\EvoDX9Renderer.h" />
+    <ClInclude Include="Src\EvoEngine.h" />
+    <ClInclude Include="Src\EvoEntity.h" />
+    <ClInclude Include="Src\EvoFile.h" />
+    <ClInclude Include="Src\EvoFont.h" />
+    <ClInclude Include="Src\EvoFrustum.h" />
+    <ClInclude Include="Src\EvoGranny.h" />
+    <ClInclude Include="Src\EvoGUI.h" />
+    <ClInclude Include="Src\EvoGUIRectWidget.h" />
+    <ClInclude Include="Src\EvoGUITextWidget.h" />
+    <ClInclude Include="Src\EvoGUIWidget.h" />
+    <ClInclude Include="Src\EvoInitData.h" />
+    <ClInclude Include="Src\EvoInput.h" />
+    <ClInclude Include="Src\EvoInputElements.h" />
+    <ClInclude Include="Src\EvoInputLayout.h" />
+    <ClInclude Include="Src\EvoInputLayoutManager.h" />
+    <ClInclude Include="Src\EvoLine.h" />
+    <ClInclude Include="Src\EvoMaterial.h" />
+    <ClInclude Include="Src\EvoMatrix.h" />
+    <ClInclude Include="Src\EvoNet.h" />
+    <ClInclude Include="Src\EvoNode.h" />
+    <ClInclude Include="Src\EvoNodeOps.h" />
+    <ClInclude Include="Src\EvoParser.h" />
+    <ClInclude Include="Src\EvoParticles.h" />
+    <ClInclude Include="Src\EvoPath.h" />
+    <ClInclude Include="Src\EvoPathEngine.h" />
+    <ClInclude Include="Src\EvoPhysics.h" />
+    <ClInclude Include="Src\EvoPoint3.h" />
+    <ClInclude Include="Src\EvoPoint4.h" />
+    <ClInclude Include="Src\EvoPSSM.h" />
+    <ClInclude Include="Src\EvoQuat.h" />
+    <ClInclude Include="Src\EvoRenderable.h" />
+    <ClInclude Include="Src\EvoRenderTarget.h" />
+    <ClInclude Include="Src\EvoResourceManager.h" />
+    <ClInclude Include="Src\EvoShader.h" />
+    <ClInclude Include="Src\EvoShadowMap.h" />
+    <ClInclude Include="Src\EvoSkybox.h" />
+    <ClInclude Include="Src\EvoStdAfx.h" />
+    <ClInclude Include="Src\EvoString.h" />
+    <ClInclude Include="Src\EvoSWF.h" />
+    <ClInclude Include="Src\EvoTask.h" />
+    <ClInclude Include="Src\EvoTaskManager.h" />
+    <ClInclude Include="Src\EvoTexture.h" />
+    <ClInclude Include="Src\EvoTimer.h" />
+    <ClInclude Include="Src\EvoWorld.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Src\EvoShader_DX10.inl" />
+    <None Include="Src\EvoShader_DX9.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\EvoBlendState.cpp" />
+    <ClCompile Include="Src\EvoBuffer.cpp" />
+    <ClCompile Include="Src\EvoCamera.cpp" />
+    <ClCompile Include="Src\EvoColor.cpp" />
+    <ClCompile Include="Src\EvoDepthStencilState.cpp" />
+    <ClCompile Include="Src\EvoDX9BufferManager.cpp" />
+    <ClCompile Include="Src\EvoDX9Renderer.cpp" />
+    <ClCompile Include="Src\EvoEngine.cpp" />
+    <ClCompile Include="Src\EvoFile.cpp" />
+    <ClCompile Include="Src\EvoFont.cpp" />
+    <ClCompile Include="Src\EvoGUI.cpp" />
+    <ClCompile Include="Src\EvoGUIRectWidget.cpp" />
+    <ClCompile Include="Src\EvoGUITextWidget.cpp" />
+    <ClCompile Include="Src\EvoInput.cpp" />
+    <ClCompile Include="Src\EvoInputElements.cpp" />
+    <ClCompile Include="Src\EvoInputLayout.cpp" />
+    <ClCompile Include="Src\EvoInputLayoutManager.cpp" />
+    <ClCompile Include="Src\EvoLine.cpp" />
+    <ClCompile Include="Src\EvoMaterial.cpp" />
+    <ClCompile Include="Src\EvoNode.cpp" />
+    <ClCompile Include="Src\EvoParser.cpp" />
+    <ClCompile Include="Src\EvoPoint3.cpp" />
+    <ClCompile Include="Src\EvoPoint4.cpp" />
+    <ClCompile Include="Src\EvoRenderable.cpp" />
+    <ClCompile Include="Src\EvoRenderTarget.cpp" />
+    <ClCompile Include="Src\EvoResourceManager.cpp" />
+    <ClCompile Include="Src\EvoShader_DX9.cpp" />
+    <ClCompile Include="Src\EvoStdAfx.cpp" />
+    <ClCompile Include="Src\EvoString.cpp" />
+    <ClCompile Include="Src\EvoTask.cpp" />
+    <ClCompile Include="Src\EvoTaskManager.cpp" />
+    <ClCompile Include="Src\EvoTexture.cpp" />
+    <ClCompile Include="Src\EvoTimer.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
